@@ -1,0 +1,35 @@
+{
+  "threads": 1,
+  "cooldown": 1,
+  "provider_selection": "swiftinbox",
+  "email_providers": {
+    "swiftinbox": {
+      "enabled": true,
+      "api_key": "your api key",
+      "api_base": "https://api.swiftinbox.xyz",
+      "domains": [
+        "homettown.online",
+        "swiftinbox1.store",
+        "miumxyz.xyz",
+        "supporttown.shop",
+        "outlookinboxcc.shop",
+        "zazawin.fun",
+        "netonline.fun",
+        "onlinccc.site",
+        "zazamail.site"
+      ]
+    }
+  },
+  "proxy": {
+    "enabled": false,
+    "file": "input/proxies.txt"
+  },
+  "mullvad": {
+    "enabled": true,
+    "countries": ["us", "nl", "jp", "de", "fr"]
+  },
+  "nopecha": {
+    "enabled": true,
+    "api_key": "fm8j80nc0dgupyyy"
+  }
+}
